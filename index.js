@@ -1,7 +1,9 @@
 const puppeteer = require('puppeteer');
 
 const conf = {view: {width: 390 , height: 844},
-              launch : {headless: 'newupp', args: ['--no-sandbox', '--disable-setuid-sandbox']}}
+              launch : {headless: 'newupp', 
+                        args: ['--no-sandbox', '--disable-setuid-sandbox'],
+                       executablePath: '/usr/bin/chromium-browser'}}
 
 
 
